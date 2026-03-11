@@ -68,12 +68,14 @@ export default function LandingPage() {
             AI-Powered Waste Management
           </div>
           <h1 className="mx-auto max-w-4xl text-balance text-4xl font-bold tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Smarter Cities Start with{" "}
-            <span className="text-primary">Cleaner Streets</span>
+            "Where {" "}
+            <span className="text-primary">Waste </span>
+            Meets Intelligence."  
           </h1>
+    
           <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg text-muted-foreground md:text-xl">
             Real-time bin monitoring, optimized collection routes, and citizen rewards.
-            EcoTrack transforms waste management with data-driven intelligence for Delhi and beyond.
+            BinWise transforms waste management with data-driven intelligence.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button size="lg" className="gap-2 px-8" onClick={() => handleLogin("citizen")}>

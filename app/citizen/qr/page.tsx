@@ -37,7 +37,7 @@ export default function QRPage() {
             <QRCode value={citizen.qr_code} size={240} />
             <div className="text-center">
               <p className="text-sm font-medium text-foreground">
-                Show this QR code at any EcoTrack smart bin
+                Show this QR code at any BinWise smart bin
               </p>
               <p className="text-xs text-muted-foreground">
                 Your deposit will be automatically tracked and points awarded

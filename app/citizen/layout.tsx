@@ -59,7 +59,7 @@ export default function CitizenLayout({ children }: { children: ReactNode }) {
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-sidebar-primary">
             <Leaf className="h-4 w-4 text-sidebar-primary-foreground" />
           </div>
-          <span className="text-lg font-bold text-sidebar-foreground">EcoTrack</span>
+          <span className="text-lg font-bold text-sidebar-foreground">BinWise</span>
         </div>
 
         {/* Citizen info */}
