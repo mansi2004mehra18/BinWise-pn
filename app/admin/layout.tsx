@@ -43,7 +43,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-sidebar-primary">
             <Leaf className="h-4 w-4 text-sidebar-primary-foreground" />
           </div>
-          <span className="text-lg font-bold text-sidebar-foreground">EcoTrack</span>
+          <span className="text-lg font-bold text-sidebar-foreground">BinWise</span>
           <span className="ml-auto rounded-md bg-sidebar-accent px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-sidebar-accent-foreground">
             Admin
           </span>
@@ -89,7 +89,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
         <header className="flex h-14 items-center justify-between border-b border-border bg-card px-4 lg:hidden">
           <div className="flex items-center gap-2">
             <Leaf className="h-5 w-5 text-primary" />
-            <span className="font-bold text-foreground">EcoTrack Admin</span>
+            <span className="font-bold text-foreground">BinWise Admin</span>
           </div>
           <nav className="flex items-center gap-1">
             {adminNavItems.map((item) => (

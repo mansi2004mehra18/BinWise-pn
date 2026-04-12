@@ -1,4 +1,4 @@
--- EcoTrack Smart Waste Management - Database Schema
+-- BinWise Smart Waste Management - Database Schema
 
 -- Drop existing tables if they exist (for clean setup)
 DROP TABLE IF EXISTS collection_routes CASCADE;

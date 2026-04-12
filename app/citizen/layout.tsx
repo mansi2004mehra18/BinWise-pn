@@ -121,7 +121,7 @@ export default function CitizenLayout({ children }: { children: ReactNode }) {
         <header className="flex h-14 items-center justify-between border-b border-border bg-card px-4 lg:hidden">
           <div className="flex items-center gap-2">
             <Leaf className="h-5 w-5 text-primary" />
-            <span className="font-bold text-foreground">EcoTrack</span>
+            <span className="font-bold text-foreground">BinWise</span>
             {user.citizen && (
               <span className="rounded-full bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary">
                 {user.citizen.reward_points} pts

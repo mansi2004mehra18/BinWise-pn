@@ -9,7 +9,7 @@ const _inter = Inter({ subsets: ["latin"] })
 const _spaceGrotesk = Space_Grotesk({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'EcoTrack - Smart Waste Management',
+  title: 'BinWise - Smart Waste Management',
   description: 'AI-powered smart waste management platform with real-time bin monitoring, route optimization, and citizen rewards for cleaner cities.',
   generator: 'v0.app',
   icons: {

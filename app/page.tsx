@@ -41,7 +41,7 @@ export default function LandingPage() {
             <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
               <Leaf className="h-5 w-5 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold tracking-tight text-foreground">EcoTrack</span>
+            <span className="text-xl font-bold tracking-tight text-foreground">BinWise</span>
           </Link>
           <nav className="hidden items-center gap-6 md:flex">
             <a href="#features" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Features</a>
@@ -166,7 +166,7 @@ export default function LandingPage() {
         <div className="mx-auto max-w-7xl px-4">
           <div className="text-center">
             <h2 className="text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-              How EcoTrack Works
+              How BinWise Works
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
               Three simple steps to a cleaner city.
@@ -225,7 +225,7 @@ export default function LandingPage() {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 md:flex-row">
           <div className="flex items-center gap-2">
             <Leaf className="h-5 w-5 text-primary" />
-            <span className="font-semibold text-foreground">EcoTrack</span>
+            <span className="font-semibold text-foreground">BinWise</span>
           </div>
           <p className="text-sm text-muted-foreground">
             Smart Waste Management Platform for Cleaner Cities
